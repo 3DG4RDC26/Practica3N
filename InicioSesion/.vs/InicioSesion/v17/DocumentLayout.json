@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|c:\\users\\labc205\\desktop\\semestreiied\\practica3n\\iniciosesion\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|c:\\users\\labc205\\desktop\\semestreiied\\practica3n\\iniciosesion\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|c:\\users\\labc205\\desktop\\semestreiied\\practica3n\\iniciosesion\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|solutionrelative:formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|c:\\users\\labc205\\desktop\\semestreiied\\practica3n\\iniciosesion\\formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E039BA-04B5-484E-8B14-44279DAA15E9}|InicioSesion.csproj|solutionrelative:formularios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +34,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\Formularios\\Form1.cs",
+              "RelativeDocumentMoniker": "Formularios\\Form1.cs",
+              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\Formularios\\Form1.cs",
+              "RelativeToolTip": "Formularios\\Form1.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAewBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:36:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\Formularios\\Form1.cs",
+              "RelativeDocumentMoniker": "Formularios\\Form1.cs",
+              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\Formularios\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:29:28.931Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -38,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
               "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\practica3N\\InicioSesion\\LoginForm.cs",
               "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wCIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T13:40:19.087Z",
               "EditorCaption": ""

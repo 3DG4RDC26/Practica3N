@@ -30,7 +30,7 @@
       {
          this.label1 = new System.Windows.Forms.Label();
          this.label2 = new System.Windows.Forms.Label();
-         this.tbName = new System.Windows.Forms.TextBox();
+         this.tbUser = new System.Windows.Forms.TextBox();
          this.tbPassword = new System.Windows.Forms.TextBox();
          this.btnLogin = new System.Windows.Forms.Button();
          this.panel1 = new System.Windows.Forms.Panel();
@@ -45,7 +45,7 @@
          this.label1.Name = "label1";
          this.label1.Size = new System.Drawing.Size(52, 15);
          this.label1.TabIndex = 0;
-         this.label1.Text = "Nombre:";
+         this.label1.Text = "Usuario:";
          // 
          // label2
          // 
@@ -58,12 +58,12 @@
          this.label2.TabIndex = 1;
          this.label2.Text = "Contraseña:";
          // 
-         // tbName
+         // tbUser
          // 
-         this.tbName.Location = new System.Drawing.Point(104, 95);
-         this.tbName.Name = "tbName";
-         this.tbName.Size = new System.Drawing.Size(155, 20);
-         this.tbName.TabIndex = 2;
+         this.tbUser.Location = new System.Drawing.Point(104, 95);
+         this.tbUser.Name = "tbUser";
+         this.tbUser.Size = new System.Drawing.Size(155, 20);
+         this.tbUser.TabIndex = 2;
          // 
          // tbPassword
          // 
@@ -85,10 +85,12 @@
          // 
          // panel1
          // 
-         this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
-         this.panel1.Location = new System.Drawing.Point(293, 95);
+         this.panel1.BackColor = System.Drawing.Color.Transparent;
+         this.panel1.BackgroundImage = global::InicioSesion.Properties.Resources.iniciar_sesion__2_;
+         this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+         this.panel1.Location = new System.Drawing.Point(309, 80);
          this.panel1.Name = "panel1";
-         this.panel1.Size = new System.Drawing.Size(173, 123);
+         this.panel1.Size = new System.Drawing.Size(144, 138);
          this.panel1.TabIndex = 5;
          // 
          // LoginForm
@@ -99,7 +101,7 @@
          this.Controls.Add(this.panel1);
          this.Controls.Add(this.btnLogin);
          this.Controls.Add(this.tbPassword);
-         this.Controls.Add(this.tbName);
+         this.Controls.Add(this.tbUser);
          this.Controls.Add(this.label2);
          this.Controls.Add(this.label1);
          this.Name = "LoginForm";
@@ -116,7 +118,7 @@
 
       private System.Windows.Forms.Label label1;
       private System.Windows.Forms.Label label2;
-      private System.Windows.Forms.TextBox tbName;
+      private System.Windows.Forms.TextBox tbUser;
       private System.Windows.Forms.TextBox tbPassword;
       private System.Windows.Forms.Button btnLogin;
       private System.Windows.Forms.Panel panel1;
