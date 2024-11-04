@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace InicioSesion
 {
-   public partial class LoginForm : Form
+   public partial class LoginForm : MetroFramework.Forms.MetroForm
    {
       public LoginForm()
       {
          InitializeComponent();
+      }
+
+      private void LoginForm_Load(object sender, EventArgs e)
+      {
+
+      }
+
+      private void btnLogin_Click(object sender, EventArgs e)
+      {
+
       }
    }
 }

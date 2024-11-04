@@ -28,13 +28,98 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.components = new System.ComponentModel.Container();
+         this.label1 = new System.Windows.Forms.Label();
+         this.label2 = new System.Windows.Forms.Label();
+         this.tbName = new System.Windows.Forms.TextBox();
+         this.tbPassword = new System.Windows.Forms.TextBox();
+         this.btnLogin = new System.Windows.Forms.Button();
+         this.panel1 = new System.Windows.Forms.Panel();
+         this.SuspendLayout();
+         // 
+         // label1
+         // 
+         this.label1.AutoSize = true;
+         this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+         this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+         this.label1.Location = new System.Drawing.Point(27, 95);
+         this.label1.Name = "label1";
+         this.label1.Size = new System.Drawing.Size(52, 15);
+         this.label1.TabIndex = 0;
+         this.label1.Text = "Nombre:";
+         // 
+         // label2
+         // 
+         this.label2.AutoSize = true;
+         this.label2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+         this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+         this.label2.Location = new System.Drawing.Point(8, 126);
+         this.label2.Name = "label2";
+         this.label2.Size = new System.Drawing.Size(71, 15);
+         this.label2.TabIndex = 1;
+         this.label2.Text = "Contraseña:";
+         // 
+         // tbName
+         // 
+         this.tbName.Location = new System.Drawing.Point(104, 95);
+         this.tbName.Name = "tbName";
+         this.tbName.Size = new System.Drawing.Size(155, 20);
+         this.tbName.TabIndex = 2;
+         // 
+         // tbPassword
+         // 
+         this.tbPassword.Location = new System.Drawing.Point(104, 126);
+         this.tbPassword.Name = "tbPassword";
+         this.tbPassword.PasswordChar = '$';
+         this.tbPassword.Size = new System.Drawing.Size(155, 20);
+         this.tbPassword.TabIndex = 3;
+         // 
+         // btnLogin
+         // 
+         this.btnLogin.Location = new System.Drawing.Point(142, 178);
+         this.btnLogin.Name = "btnLogin";
+         this.btnLogin.Size = new System.Drawing.Size(82, 40);
+         this.btnLogin.TabIndex = 4;
+         this.btnLogin.Text = "Iniciar Sesion";
+         this.btnLogin.UseVisualStyleBackColor = true;
+         this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+         // 
+         // panel1
+         // 
+         this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+         this.panel1.Location = new System.Drawing.Point(293, 95);
+         this.panel1.Name = "panel1";
+         this.panel1.Size = new System.Drawing.Size(173, 123);
+         this.panel1.TabIndex = 5;
+         // 
+         // LoginForm
+         // 
+         this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(800, 450);
-         this.Text = "Form1";
+         this.ClientSize = new System.Drawing.Size(501, 287);
+         this.Controls.Add(this.panel1);
+         this.Controls.Add(this.btnLogin);
+         this.Controls.Add(this.tbPassword);
+         this.Controls.Add(this.tbName);
+         this.Controls.Add(this.label2);
+         this.Controls.Add(this.label1);
+         this.Name = "LoginForm";
+         this.Text = "Inicio de Sesion";
+         this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+         this.Theme = MetroFramework.MetroThemeStyle.Default;
+         this.Load += new System.EventHandler(this.LoginForm_Load);
+         this.ResumeLayout(false);
+         this.PerformLayout();
+
       }
 
       #endregion
+
+      private System.Windows.Forms.Label label1;
+      private System.Windows.Forms.Label label2;
+      private System.Windows.Forms.TextBox tbName;
+      private System.Windows.Forms.TextBox tbPassword;
+      private System.Windows.Forms.Button btnLogin;
+      private System.Windows.Forms.Panel panel1;
    }
 }
 
